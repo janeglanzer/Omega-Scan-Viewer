@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./index.css";
+import SelectImage from './SelectImage.jsx';
+import BeforeImageList from './BeforeImageList';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  state = {
+    selectedChannel: null
+  }
+
+  changeChannel = (channel) => {
+    this.setState({ selectedChannel: channel });
+  }
+  render() {
+    const { selectedChannel } = this.state;
+    return (
+      <div className="App">
+        <SelectImage onSelect={this.changeChannel} selectedImage={selectedChannel} />
+        <BeforeImageList channel={selectedChannel} />
+      </div>
+    );
+  }
 }
-
-export default App;
