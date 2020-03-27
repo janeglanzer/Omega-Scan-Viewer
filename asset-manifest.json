@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/janeglanzer/Omega-Scan-Viewer.git/static/css/main.5cc3669e.chunk.css",
-    "main.js": "/janeglanzer/Omega-Scan-Viewer.git/static/js/main.74b4ca1f.chunk.js",
-    "main.js.map": "/janeglanzer/Omega-Scan-Viewer.git/static/js/main.74b4ca1f.chunk.js.map",
-    "runtime-main.js": "/janeglanzer/Omega-Scan-Viewer.git/static/js/runtime-main.60dce455.js",
-    "runtime-main.js.map": "/janeglanzer/Omega-Scan-Viewer.git/static/js/runtime-main.60dce455.js.map",
-    "static/js/2.51a9779c.chunk.js": "/janeglanzer/Omega-Scan-Viewer.git/static/js/2.51a9779c.chunk.js",
-    "static/js/2.51a9779c.chunk.js.map": "/janeglanzer/Omega-Scan-Viewer.git/static/js/2.51a9779c.chunk.js.map",
-    "index.html": "/janeglanzer/Omega-Scan-Viewer.git/index.html",
-    "precache-manifest.5d3b73342b1cf5d042ad930876ca78dc.js": "/janeglanzer/Omega-Scan-Viewer.git/precache-manifest.5d3b73342b1cf5d042ad930876ca78dc.js",
-    "service-worker.js": "/janeglanzer/Omega-Scan-Viewer.git/service-worker.js",
-    "static/css/main.5cc3669e.chunk.css.map": "/janeglanzer/Omega-Scan-Viewer.git/static/css/main.5cc3669e.chunk.css.map",
-    "static/js/2.51a9779c.chunk.js.LICENSE.txt": "/janeglanzer/Omega-Scan-Viewer.git/static/js/2.51a9779c.chunk.js.LICENSE.txt"
+    "main.css": "/Omega-Scan-Viewer/static/css/main.5cc3669e.chunk.css",
+    "main.js": "/Omega-Scan-Viewer/static/js/main.7e69d033.chunk.js",
+    "main.js.map": "/Omega-Scan-Viewer/static/js/main.7e69d033.chunk.js.map",
+    "runtime-main.js": "/Omega-Scan-Viewer/static/js/runtime-main.2bdd57f1.js",
+    "runtime-main.js.map": "/Omega-Scan-Viewer/static/js/runtime-main.2bdd57f1.js.map",
+    "static/js/2.51a9779c.chunk.js": "/Omega-Scan-Viewer/static/js/2.51a9779c.chunk.js",
+    "static/js/2.51a9779c.chunk.js.map": "/Omega-Scan-Viewer/static/js/2.51a9779c.chunk.js.map",
+    "index.html": "/Omega-Scan-Viewer/index.html",
+    "precache-manifest.b5ec539e27db5b379f74cf8672e7d5e4.js": "/Omega-Scan-Viewer/precache-manifest.b5ec539e27db5b379f74cf8672e7d5e4.js",
+    "service-worker.js": "/Omega-Scan-Viewer/service-worker.js",
+    "static/css/main.5cc3669e.chunk.css.map": "/Omega-Scan-Viewer/static/css/main.5cc3669e.chunk.css.map",
+    "static/js/2.51a9779c.chunk.js.LICENSE.txt": "/Omega-Scan-Viewer/static/js/2.51a9779c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.60dce455.js",
+    "static/js/runtime-main.2bdd57f1.js",
     "static/js/2.51a9779c.chunk.js",
     "static/css/main.5cc3669e.chunk.css",
-    "static/js/main.74b4ca1f.chunk.js"
+    "static/js/main.7e69d033.chunk.js"
   ]
 }
