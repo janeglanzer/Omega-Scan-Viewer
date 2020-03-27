@@ -15,7 +15,11 @@ export default class App extends Component {
     const { selectedChannel } = this.state;
     return (
       <div className="App">
+        <div className="Header">
+          <h1>Omega Scan Ligo Observation</h1>
+        </div>
         <SelectImage onSelect={this.changeChannel} selectedImage={selectedChannel} />
+        <BeforeImageList channel={selectedChannel} />
         <BeforeImageList channel={selectedChannel} />
       </div>
     );
