@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/janeglanzer/LIGO-site.git/static/css/main.5cc3669e.chunk.css",
-    "main.js": "/janeglanzer/LIGO-site.git/static/js/main.74de870e.chunk.js",
-    "main.js.map": "/janeglanzer/LIGO-site.git/static/js/main.74de870e.chunk.js.map",
-    "runtime-main.js": "/janeglanzer/LIGO-site.git/static/js/runtime-main.4c3d2b6e.js",
-    "runtime-main.js.map": "/janeglanzer/LIGO-site.git/static/js/runtime-main.4c3d2b6e.js.map",
-    "static/js/2.51a9779c.chunk.js": "/janeglanzer/LIGO-site.git/static/js/2.51a9779c.chunk.js",
-    "static/js/2.51a9779c.chunk.js.map": "/janeglanzer/LIGO-site.git/static/js/2.51a9779c.chunk.js.map",
-    "index.html": "/janeglanzer/LIGO-site.git/index.html",
-    "precache-manifest.a63d2470da266fc663cc59aaeef2a4c7.js": "/janeglanzer/LIGO-site.git/precache-manifest.a63d2470da266fc663cc59aaeef2a4c7.js",
-    "service-worker.js": "/janeglanzer/LIGO-site.git/service-worker.js",
-    "static/css/main.5cc3669e.chunk.css.map": "/janeglanzer/LIGO-site.git/static/css/main.5cc3669e.chunk.css.map",
-    "static/js/2.51a9779c.chunk.js.LICENSE.txt": "/janeglanzer/LIGO-site.git/static/js/2.51a9779c.chunk.js.LICENSE.txt"
+    "main.css": "/janeglanzer/Omega-Scan-Viewer.git/static/css/main.5cc3669e.chunk.css",
+    "main.js": "/janeglanzer/Omega-Scan-Viewer.git/static/js/main.74b4ca1f.chunk.js",
+    "main.js.map": "/janeglanzer/Omega-Scan-Viewer.git/static/js/main.74b4ca1f.chunk.js.map",
+    "runtime-main.js": "/janeglanzer/Omega-Scan-Viewer.git/static/js/runtime-main.60dce455.js",
+    "runtime-main.js.map": "/janeglanzer/Omega-Scan-Viewer.git/static/js/runtime-main.60dce455.js.map",
+    "static/js/2.51a9779c.chunk.js": "/janeglanzer/Omega-Scan-Viewer.git/static/js/2.51a9779c.chunk.js",
+    "static/js/2.51a9779c.chunk.js.map": "/janeglanzer/Omega-Scan-Viewer.git/static/js/2.51a9779c.chunk.js.map",
+    "index.html": "/janeglanzer/Omega-Scan-Viewer.git/index.html",
+    "precache-manifest.5d3b73342b1cf5d042ad930876ca78dc.js": "/janeglanzer/Omega-Scan-Viewer.git/precache-manifest.5d3b73342b1cf5d042ad930876ca78dc.js",
+    "service-worker.js": "/janeglanzer/Omega-Scan-Viewer.git/service-worker.js",
+    "static/css/main.5cc3669e.chunk.css.map": "/janeglanzer/Omega-Scan-Viewer.git/static/css/main.5cc3669e.chunk.css.map",
+    "static/js/2.51a9779c.chunk.js.LICENSE.txt": "/janeglanzer/Omega-Scan-Viewer.git/static/js/2.51a9779c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c3d2b6e.js",
+    "static/js/runtime-main.60dce455.js",
     "static/js/2.51a9779c.chunk.js",
     "static/css/main.5cc3669e.chunk.css",
-    "static/js/main.74de870e.chunk.js"
+    "static/js/main.74b4ca1f.chunk.js"
   ]
 }
