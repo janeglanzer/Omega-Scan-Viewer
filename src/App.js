@@ -16,7 +16,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <div className="Header">
-          <h1>Omega Scan Ligo Observation</h1>
+          <h1>Omega Scan Viewer</h1>
         </div>
         <SelectImage onSelect={this.changeChannel} selectedImage={selectedChannel} />
         <BeforeImageList channel={selectedChannel} />
