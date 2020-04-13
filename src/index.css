@@ -20,6 +20,10 @@ a, a:visited {
   text-decoration: none;
 }
 
+textarea {
+  min-height: 10rem;
+}
+
 .App {
   display: flex;
   flex-wrap: wrap;
@@ -55,6 +59,7 @@ a, a:visited {
 .ImageList {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   width: 47vw;
   padding: 10px;
 }
