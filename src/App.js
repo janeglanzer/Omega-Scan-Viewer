@@ -43,8 +43,8 @@ export default class App extends Component {
       return;
     }
 
-    const tmpBefore = beforeTimes.replace(/\r?\n|\r/g, ' ').split(' ').sort();
-    const tmpAfter = afterTimes.replace(/\r?\n|\r/g, ' ').split(' ').sort();
+    const tmpBefore = beforeTimes.replace(/\r?\n|\r/g, '.0 ').split(' ').sort();
+    const tmpAfter = afterTimes.replace(/\r?\n|\r/g, '.0 ').split(' ').sort();
     this.setState({ inputSaved: true, beforeTimes: tmpBefore, afterTimes: tmpAfter });
   }
 
