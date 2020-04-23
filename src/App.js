@@ -27,7 +27,7 @@ export default class App extends Component {
       <div>
         <SelectImage onSelect={this.changeChannel} selectedImage={selectedChannel} />
         <ImageList outputDirectory={'outputgpstimepre'} times={beforeTimes} channel={selectedChannel} />
-        <ImageList outputDirectory={'postgps'} times={afterTimes} channel={selectedChannel} />
+        <ImageList outputDirectory={'apriloct'} times={afterTimes} channel={selectedChannel} />
       </div>
     );
   }
@@ -44,7 +44,7 @@ export default class App extends Component {
     }
 
     const tmpBefore = beforeTimes.replace(/\r?\n|\r/g, ' ').split(' ').sort();
-    const tmpAfter = beforeTimes.replace(/\r?\n|\r/g, ' ').split(' ').sort();
+    const tmpAfter = afterTimes.replace(/\r?\n|\r/g, ' ').split(' ').sort();
     this.setState({ inputSaved: true, beforeTimes: tmpBefore, afterTimes: tmpAfter });
   }
 
