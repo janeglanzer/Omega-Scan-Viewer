@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Omega-Scan-Viewer/precache-manifest.b5ec539e27db5b379f74cf8672e7d5e4.js"
+  "/Omega-Scan-Viewer/precache-manifest.0f68fc33ce862861cf1b1410b3982f75.js"
 );
 
 self.addEventListener('message', (event) => {
