@@ -31,6 +31,29 @@ textarea {
   justify-content: center;
 }
 
+.time-inputs {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.time-inputs > div {
+  width: 45%;
+  margin: 1rem;
+}
+
+.time-inputs > div > textarea {
+  width: 100%;
+}
+
+.time-inputs > button {
+  width: 25%;
+  margin-top: 3rem;
+  background: white;
+}
+
 .Header {
   background-color: #333;
   display: flex;
