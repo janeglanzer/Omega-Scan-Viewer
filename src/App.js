@@ -43,8 +43,8 @@ export default class App extends Component {
       return;
     }
 
-    const tmpBefore = beforeTimes.replace(/\r?\n|\r/g, ' ').split(' ');
-    const tmpAfter = beforeTimes.replace(/\r?\n|\r/g, ' ').split(' ');
+    const tmpBefore = beforeTimes.replace(/\r?\n|\r/g, ' ').split(' ').sort();
+    const tmpAfter = beforeTimes.replace(/\r?\n|\r/g, ' ').split(' ').sort();
     this.setState({ inputSaved: true, beforeTimes: tmpBefore, afterTimes: tmpAfter });
   }
 
@@ -55,7 +55,7 @@ export default class App extends Component {
         <div>
           <h1>Before Times</h1>
           <textarea
-            placeholder="Enter GPS Time Coordinates in list form"
+            placeholder='Enter GPS Time Coordinates in list form'
             onChange={(event) => this.handleChange('beforeTimes', event)} value={beforeTimes || ''} name="beforeTimes">
           </textarea>
         </div>
